@@ -20,4 +20,6 @@ Gem::Specification.new {|s|
 
 	s.add_dependency 'ffi-extra'
 	s.add_dependency 'ffi-inline'
+
+	s.add_development_dependency 'rspec'
 }
