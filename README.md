@@ -16,6 +16,10 @@ to install the *-dev* package.
 
 On Debian you will need to install `libleptonica-dev` and `libtesseract-dev`.
 
+You might need to set `TESSDATA_PREFIX` environment variable or set
+`Tesseract.prefix` to the directory where language models are stored (e.g.
+`/usr/share/tesseract-ocr`)
+
 Examples
 --------
 Following are some examples that show the functionalities provided by
